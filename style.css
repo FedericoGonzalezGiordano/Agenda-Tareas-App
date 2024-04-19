@@ -1,0 +1,22 @@
+.contenedorMain{
+    
+    width: 900px;
+    height: 1100px;
+    border-radius: 10px;
+}
+.contenedorTask{
+    width: 800px;
+    height: 950px;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+.task{
+    display: none;
+}
+#list {
+    max-height: 950px; /* Altura máxima del contenedor */
+    overflow-y: auto; /* Barra de desplazamiento vertical cuando sea necesario */
+}
